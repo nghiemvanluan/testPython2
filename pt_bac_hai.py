@@ -5,6 +5,11 @@ a = int(input("Nhập số nguyên a: "))
 b = int(input("Nhập số nguyên b: "))
 c = int(input("Nhập số nguyên c: "))
 
+
+def giai_pt_bac2():
+    pass
+
+
 if a == 0:
     if b == 0:
         if c == 0:
@@ -26,3 +31,5 @@ else:
         print("Phương trình có 2 nghiệm phân biệt!")
         print("x1 = ", float((-b - math.sqrt(delta)) / (2 * a)))
         print("x2 = ", float((-b + math.sqrt(delta)) / (2 * a)))
+
+giai_pt_bac2()
