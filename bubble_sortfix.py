@@ -5,7 +5,7 @@ for i in range(0, n):
     a.append(int(input("Nhap phan tu " + str(i + 1) + "(bang so): ")))
 
 
-def DSso():
+def list_number():
     for i in range(len(a)):
         b = i
         for j in range(i + 1, len(a)):
@@ -15,4 +15,4 @@ def DSso():
     print(a)
 
 
-DSso()
+list_number()
